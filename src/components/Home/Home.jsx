@@ -124,7 +124,7 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div className="w-full flex justify-center items-center mt-[-50px] mb-[50px]"><span className="text-[20px] text-[#fff] text-center w-full">Made with ❤️ for my Baby Girl</span></div>
+                <div className="w-full flex justify-center items-center mt-[-50px]"><span className="text-[20px] text-[#fff] text-center pb-[50px]">Made with <span className="hover:scale-[1.2] transition-all duration-[2s]">❤️</span> for my Vani Gupta</span></div>
 
             </div>
         </div>
