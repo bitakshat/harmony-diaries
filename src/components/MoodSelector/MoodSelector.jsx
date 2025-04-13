@@ -66,8 +66,8 @@ const MoodSelector = () => {
         const prompt = `
             Mood Log:
             - Day rating: ${dayRating}/5
-            - Thought of partner: ${thoughtRating}/5
-            - Felt connection: ${connectionRating}/5
+            - How's your heart feeling right now: ${thoughtRating}/5
+            - How energitic you are feeling today: ${connectionRating}/5
 
             Suggest a song that matches this mood. It can be either a Hindi or an English song. Avoid suggesting songs that have already been recommended previously. Be creative and choose something unique, meaningful, or lesser-known if it fits.
     `;
@@ -89,7 +89,7 @@ const MoodSelector = () => {
         <div className="p-6 space-y-6 text-[30px] text-[#fff] flex justify-center items-center flex-col">
             <div className='mx-auto flex flex-col gap-[20px]'>
                 <div className='flex flex-col justify-center items-center'>
-                    <p className="font-semibold mb-2">How was your day?</p>
+                    <p className="font-semibold mb-2">How is your day going?</p>
                     <CustomSlider value={dayRating} onChange={setDayRating} />
                 </div>
 
@@ -99,7 +99,7 @@ const MoodSelector = () => {
                 </div>
 
                 <div className='flex flex-col justify-center items-center'>
-                    <p className="font-semibold mb-2">How much did you feel like we're growing together today?</p>
+                    <p className="font-semibold mb-2">How energetic are you feeling today?</p>
                     <CustomSlider value={connectionRating} onChange={setConnectionRating} />
                 </div>
             </div>

@@ -141,7 +141,7 @@ const MusicPlayer = ({ trackName }) => {
             </div>
 
             <div className="w-full">
-                <div id="youtube-player" ref={playerContainerRef} className="rounded-lg overflow-hidden w-full aspect-video"></div>
+                <div id="youtube-player" ref={playerContainerRef} className="rounded-lg overflow-hidden w-full"></div>
             </div>
         </div>
     );
