@@ -14,8 +14,8 @@ export const getSongSuggestion = async (prompt) => {
                     {
                         role: 'system',
                         content: `You are a mood-based music recommender. 
-                            Based on the user's mood ratings, suggest ONE song that emotionally fits the moment. 
-                            Alternate between Hindi and English songs for variety. Avoid repeating any previous suggestions. 
+                            Based on the user's mood ratings, suggest ONE HINDI song that emotionally fits the moment. 
+                            .Avoid repeating any previous suggestions and OLD SONGS as well. 
                             Always return only the song title and artist.`,
                     },
                     {
